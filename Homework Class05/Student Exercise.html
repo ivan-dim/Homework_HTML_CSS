@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Exercise</title>
+  </head>
+  <body>
+    <h1>Student Exercise</h1>
+    <form>
+      <fieldset>
+        <legend align="center">Testform</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          placeholder="Enter Your Name"
+        /><br /><br />
+
+        <label for="pwd">Password:</label>
+        <input
+          type="password"
+          id="pwd"
+          placeholder="Enter Your Password"
+        /><br /><br />
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label><br /><br />
+
+        <label for="continent">Continent:</label>
+        <select id="continent">
+          <option disabled selected>Please Select</option>
+          <option>Asia</option>
+          <option>Africa</option>
+          <option>North America</option>
+          <option>South America</option>
+          <option>Europe</option>
+          <option>Australia</option>
+          <option>Antarctica</option>
+        </select>
+        <br />
+        <br />
+        <label>Meals:</label> <br /><br />
+        <input type="checkbox" id="breakfast" />
+        <label for="breakfast">Breakfast</label> <br /><br />
+        <input type="checkbox" id="lunch" />
+        <label for="lunch">Lunch</label> <br /><br />
+        <input type="checkbox" id="dinner" />
+        <label for="dinner">Dinner</label> <br /><br />
+
+        <label for="remarks">Remarks:</label> <br />
+        <br />
+        <textarea
+          id="remarks"
+          name="remarks"
+          rows="4"
+          cols="50"
+          placeholder="Leave any remarks you may have here! 😃👍">
+        </textarea>
+        <br />
+        <br />
+      </fieldset>
+
+      <footer align="center">
+        <input type="submit" value="Send" />
+        <input type="reset" value="Cancel" />
+      </footer>
+    </form>
+  </body>
+</html>
