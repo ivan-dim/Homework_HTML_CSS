@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction */
+  flex-direction: column;
+  align-items: center;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content */
+  justify-content: center;
+  margin: 0;
+  background: rgb(66, 0, 235);
+  background: linear-gradient(
+    80deg,
+    rgba(66, 0, 235, 1) 0%,
+    rgba(122, 99, 217, 1) 81%
+  );
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #323131;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: white;
+  /* https://getcssscan.com/css-box-shadow-examples -- nice site */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+th,
+td {
+  padding: 12px 15px;
+  border: 1px solid #920f0f;
+  text-align: center;
+}
+
+th {
+  background-color: #f4f4f4;
+  color: #232121;
+}
+
+td:hover {
+  text-decoration: underline;
+}
+
+td > a {
+  color: rgb(21, 110, 100);
+  text-decoration: solid;
+  font-weight: bold;
+}
+
+tr,
+tr > th {
+  background: rgb(23, 38, 29);
+  background: linear-gradient(
+    80deg,
+    rgba(23, 38, 29, 1) 0%,
+    rgba(112, 21, 109, 1) 81%
+  );
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #323131;
+  text-decoration: none;
+  -webkit-text-stroke: 1px black;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 4px;
+  background: rgb(197, 92, 232);
+  background: linear-gradient(
+    80deg,
+    rgb(197, 92, 232) 0%,
+    rgb(197, 92, 232) 81%
+  );
+}
+
+h4 > a {
+  text-decoration: solid;
+  font-weight: bold;
+}
