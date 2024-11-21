@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  .container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 10px solid white;
+    box-sizing: border-box;
+  }
+
+  .block {
+    position: absolute;
+    box-sizing: border-box;
+    border: 2px solid black;
+  }
+
+ 
+  .white1 {
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 70px;
+  }
+
+  .white2 {
+    background-color: white;
+    top: 70px;
+    left: 0;
+    width: 60px;
+    height: 130px;
+  }
+
+  .white3 {
+    background-color: white;
+    top: 200px;
+    left: 60px;
+    width: 230px;
+    height: 70px;
+  }
+
+ 
+  .white4 {
+    background-color: white;
+    top: 200px;
+    left: 290px;
+    width: 10px;
+    height: 50px;
+  }
+
+ 
+  .red {
+    background-color: red;
+    top: 0;
+    left: 60px;
+    width: 240px;
+    height: 200px;
+  }
+
+  .blue {
+    background-color: blue;
+    top: 200px;
+    left: 0;
+    width: 60px;
+    height: 70px;
+  }
+
+  .yellow {
+    background-color: yellow;
+    top: 240px;
+    left: 290px;
+    width: 10px;
+    height: 30px;
+  }
